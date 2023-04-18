@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" >
+        <title>Formulário HTML</title>
+    </head>
+            <body>
+                <form action="recebe.php" method="post">
+                    <fieldset><legend> Dados Pessoais:</legend>
+                    <label>Nome:</label> 
+                    <input type="text" name="nome" placeholder="informe seu nome" id="nome"><br>
+
+                    <label>Endereço:</label>
+                    <input type="text"><br>
+
+                    <label>Cidade:</label>
+                    <input type="text"><br>
+                </fieldset>
+                    
+
+                    <label>Senha:</label>
+                    <input type="password"><br>
+
+                    <label>Idade:</label>
+                    <input type="number"><br>
+
+                    <label>Peso:</label>
+                    <input type="number" step="0.01"><br>
+
+                    <label>Data:</label>
+                    <input type="date"><br>
+
+                    <label>Hora:</label>
+                    <input type="time"><br>
+                    <textarea name="curriculo" id="curriculo" cols="30" rows="10" maxlength="20"></textarea><br>
+
+
+                    <label>Java</label>
+                    <input type="checkbox" value="java" id="java" name="linguagens">
+                    <label>PHP</label>
+                    <input type="checkbox" value="php" id="php" name="linguagens">
+                    <label>Phyton</label>
+                    <input type="checkbox" value="phyton" id="phyton" name="linguagens">
+                    <label>JavaScript</label>
+                    <input type="checkbox" value="javascript" id="javascript" name="linguagens">
+
+                    <!-- 
+                        <input type="checkbox" name="" id=""-->
+                        <br>
+                        <label>Masculino</label>
+                        <input type="radio" name="sexo" value="masculino" id="masculino">
+                        <label>Feminino</label>
+                        <input type="radio" name="sexo" value="feminino" id="feminino">
+                        <label>Outro</label>
+                        <input type="radio" name="sexo" value="outro" id="outro">
+                        <br>
+                
+                        <select name="estado">
+                            <option value="MG">Minas Gerais</option>
+                            <option value="SP">São Paulo</option>
+                            <option value="RJ">Rio de Janeiro</option>
+                        </select>
+                        <br>
+
+                    <input type="submit" value="Enviar">
+                </form>
