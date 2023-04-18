@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" >
+        <title>Tabelas em html</title>
+        <head>
+            <body>
+                <table border="1">
+                    <caption>Informações dos Produtos</caption> <br>
+                    <tr>
+                        <th>Produto</th>
+                        <th>Preço</th>
+                        <th>Descrição</th>
+                    </tr>
+                    <tr>
+                        <td>TV samsung 55"</td>
+                        <td>R$ 7.500,00</td>
+                        <td> TV de oled</td>
+                    </tr>
+                    <tr>
+                        <td> Playstation 4</td>
+                        <td> R$ 4.000,00</td>
+                        <td> videogame da sony</td>
+                    </tr>
+                    <tr>
+                        <td> Fone de ouvido</td>
+                        <td>R$ 350,00</td>
+                        <td> Fone de ouvido da marca JBL</td>
+                    </tr>
+                </table> <br>
+
+                <table border="1">
+                    <caption>Contatos dos Clientes</caption> <br>
+
+                    
+                    <tr>
+                      <th>Nome</th>
+                      <th colspan="2"> Telefone</th>
+                    </tr>
+                    <tr>
+                        <td>Ricardo</td>
+                        <td>(35)99807-1983</td>
+                        <td>(35)99807-1983</td>
+
+                    </tr>
+                    <tr>
+                        <td>João Augusto</td>
+                        <td>(35)99213-2705</td>
+                        <td>(35)99213-2705</td>
+                    </tr>
+                    <tr>
+                        <td>Maria Luisa</td>
+                        <td>(35)99204-8877</td>
+                        <td>(35)99204-8877</td>
+                    </tr>
+                </table> <br>
+
+                <table border="1">
+                    <caption>Contatos</caption> <br>
+                    <tr>
+                        <th>Nome</th>
+                        <td>Maria Eduarda</td>
+                    </tr>
+                    <tr>
+                        <th rowspan="2">Telefone</th>
+                        <td>(35)98811-7449</td>
+                        <td>(35)98811-7449</td>
+                    </tr>
+                </table>
+
+            </body>
+        </head>
