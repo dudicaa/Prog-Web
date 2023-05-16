@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" >
+        <title>Introdução ao CSS</title>
+        <link rel="stylesheet" href="css/estilo.css">
+    </head>
+    <body>
+        <h1>Introdução ao CSS</h1>
+        <!-- o css só existe se é usado o style -->
+        <p id="paragrafo1">
+
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Magnam nam molestiae asperiores, officia nostrum quasi vel eaque voluptate, at optio repudiandae quis minima unde nihil commodi. Quaerat soluta voluptates fugit?
+        </p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusantium eum tempore repellendus consequatur nemo amet, voluptatibus repellat, ea sint recusandae necessitatibus qui aliquid optio aspernatur inventore hic quam! Quas, distinctio.
+        </p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum ipsa accusantium saepe, est sint pariatur culpa inventore, optio corrupti, sed illo tenetur impedit dolore sunt quidem magni facere dolorum repellat.
+        </p>
+        <P>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores ratione eveniet dignissimos atque temporibus, ducimus a et dolore ipsum! Nam perferendis expedita reprehenderit optio eos earum, error accusantium! Impedit, magni?
+        </p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis ipsam neque cupiditate pariatur impedit. Necessitatibus delectus tempore eaque reprehenderit, quibusdam veritatis voluptate repellendus omnis quas enim nam deserunt laboriosam. Alias?
+        </p>
+    </body>
+    </html>
